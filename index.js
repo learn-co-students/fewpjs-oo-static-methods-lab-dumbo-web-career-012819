@@ -6,8 +6,8 @@ class Formatter {
   }
 
 
-  static sanitize(string) {
-    return string.replace(/[^A-Za-z0-9 '-]/g, '')
+  static sanitize(word) {
+    return word.replace(/[^A-Za-z0-9 '-]/g, '')
   }
 
 
